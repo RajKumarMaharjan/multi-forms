@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Multi-step form </title>
+    <link rel="stylesheet" href="./css/info.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="sidebar">
+                <div class="image">
+                    <img src="./images/bg-sidebar-desktop.svg" alt="bg-sidebar-desktop">
+                </div>
+                <div class="side__menu">
+                    <ul>
+                        <li>
+                            <div class="num" id="num1">
+                                1
+                            </div>
+                            <a href="yourInfo.html">
+                                <h5> Step 1</h5> 
+                                 <p> Your info </p>                               
+                            </a>
+                        </li>
+                        <li>
+                            <div class="num" id="num2">
+                                2
+                            </div>
+                            <a href="selectPlan.html">
+                                <h5> Step 2</h5> 
+                                  <p>  Select plan </p>                                 
+                            </a>
+                        </li>
+                        <li>
+                            <div class="num" id="num3">
+                                3
+                            </div>
+                            <a href="pickAddOne.html">
+                                <h5> Step 3</h5> 
+                                  <p> Add-ons</p>                                 
+                            </a>
+                        </li>
+                        <li>
+                            <div class="num" id="num4">
+                                4
+                            </div>
+                            <a href="finishingUp.html">
+                                <h5> Step 1</h5> 
+                                  <p> Summary </p>                                 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="personal__info">
+                <div class="info__head">
+                    <h1>Personal info</h1>
+                    <p>Please provideyour name, email address and phone number</p>
+                </div>
+                <form method="get">
+                    <div class="input-field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name"  placeholder="Enter your name"/>
+                    </div>
+                    <!-- <input type="text" id="name" required> -->
+                    <div class="input-field">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" />
+                    </div>
+                    <div class="input-field">
+                        <label for="phone__number">Phone Number</label>
+                        <input type="number" id="phone__number" minlength="8"/>
+                    </div>
+                    <div class="button">
+                        <button type="submit">
+                            Next Step
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

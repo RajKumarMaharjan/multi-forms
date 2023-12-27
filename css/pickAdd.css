@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+}
+.container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 150px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 950px;
+    height: 568px;
+    padding: 20px;
+   
+    
+}
+/*Sidebar--start*/
+.sidebar .side__menu ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px 20px;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+.sidebar .side__menu ul li a {
+    text-decoration: none;
+    line-height: 0.5px;
+    text-transform: uppercase;
+}
+.sidebar .side__menu ul li a p{
+  color: #fff;
+  font-size: 14px;
+}
+.sidebar .side__menu ul li a h5{
+font-size: 11px;
+color: rgb(167, 164, 164);
+}
+
+.sidebar .side__menu ul li .num{
+    border: 0.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.sidebar .image{
+    position: absolute;
+}
+.sidebar .side__menu{
+    position: relative;
+    top:20px;
+}
+
+
+.sidebar .side__menu ul li #num3 {
+    background-color: lightblue;
+    color: #000;
+    border: none;
+}
+
+.sidebar .side__menu ul li #num1 {
+    background-color: transparent;
+    color: #fff;
+    border: 0.5px solid #fff;
+}
+/* sidebar--end */
+.service__card{
+    width: 400px;
+}
+.pick__add {
+    margin-left: 80px;
+    line-height: 20px;
+}
+
+.pick__add .pick__head h1 {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.pick__add .pick__head p {
+    font-size: 16px;
+    color: rgb(156, 152, 152);
+    
+}
+.pick__add .service__card {
+    display: grid;
+    gap: 20px;
+}
+.pick__add .service__card 
+.online__service,
+.larger__storage,
+.customizable__profile{
+   display: grid;
+   grid-template-columns: 40px 300px 50px;
+   align-items: center;
+   border: 1px solid skyblue;
+   border-radius: 5px;
+   padding: 5px;
+   width: 400px;
+}
+.pick__add .service__card 
+.online__service,
+.larger__storage,
+.customizable__profile .service__content{
+    line-height: 3px;
+}
+.pick__add .service__card 
+.online__service,
+.larger__storage,
+.customizable__profile .service__content p{
+    font-size: 16px;
+    color: rgb(174, 166, 166);
+}
+.pick__add .service__card 
+.online__service,
+.larger__storage,
+.customizable__profile .service__content h3{
+    font-size: 14px;
+    color: rgb(36, 77, 131);
+}
+.pick__add .service__card 
+.online__service,
+.larger__storage,
+.customizable__profile .amount{
+    font-size: 14px;
+    color:rgb(86, 41, 220);
+}
+
+.pick__add .button{
+    display: flex;
+    margin-top: 145px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pick__add .button .go__back {
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    color: #000;
+
+    &:hover {
+        font-weight: bold;
+    }
+}
+
+.pick__add .button .next {
+    background-color: rgb(12, 12, 72);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 10px;
+   &:hover{
+   opacity: 0.8;
+   }
+}

@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+}
+.container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 150px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 950px;
+    height: 568px;
+    padding: 20px;
+  
+}
+/*Sidebar--start*/
+.sidebar .side__menu ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px 20px;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+.sidebar .side__menu ul li a {
+    text-decoration: none;
+    line-height: 0.5px;
+    text-transform: uppercase;
+}
+.sidebar .side__menu ul li a p{
+  color: #fff;
+  font-size: 14px;
+}
+.sidebar .side__menu ul li a h5{
+font-size: 11px;
+color: rgb(167, 164, 164);
+}
+
+.sidebar .side__menu ul li .num{
+    border: 0.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.sidebar .image{
+    position: absolute;
+}
+.sidebar .side__menu{
+    position: relative;
+    top:20px;
+}
+
+
+.sidebar .side__menu ul li #num4 {
+    background-color: lightblue;
+    color: #000;
+    border: none;
+}
+
+.sidebar .side__menu ul li #num1 {
+    background-color: transparent;
+    color: #fff;
+    border: 0.5px solid #fff;
+}
+/* sidebar--end */
+.finishing__up{
+    width: 500px;
+    margin-inline: auto;
+}
+.finishing__up .finishing__head h1 {
+    font-size: 32px;
+    margin-top: 50px;
+    color: rgb(53, 25, 95);
+}
+
+.finishing__up .finishing__head p {
+    font-size: 16px;
+    color: rgb(153, 152, 156);
+    
+}
+.finishing__up .card{
+    background-color: #eff0f4;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.finishing__up .card .card__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #666;
+}
+.finishing__up .card .card__content .card__head{
+    line-height: 2px;
+}
+.finishing__up .card .card__content .card__head p{
+    color: rgb(57, 34, 135);
+    &:hover{
+        text-decoration: underline;
+        opacity: 0.8;
+    }
+}
+.finishing__up .card__content3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}.finishing__up .card__content3 .amount{
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.finishing__up .button{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 150px;
+}
+
+.finishing__up  .button .go__back {
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    color: #000;
+
+    &:hover {
+        font-weight: bold;
+    }
+}
+
+.finishing__up .button .next {
+    background-color: rgb(113, 113, 234);
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+   font-size: 18px;
+   &:hover{
+    opacity: 0.8;
+   }
+}
